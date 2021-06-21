@@ -3,6 +3,8 @@ set -e
 
 cd ~/.vim_runtime
 
+cp -rf my_plugins/my_configs.vim ./
+
 echo 'set runtimepath+=~/.vim_runtime
 
 source ~/.vim_runtime/vimrcs/basic.vim
